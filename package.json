@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "rm -rf dist && parcel build public/index.html &&  cp ./public/CNAME ./dist/CNAME"
+    "build": "rm -rf docs && parcel build public/index.html -d docs &&  cp ./public/CNAME ./docs/CNAME"
   },
   "devDependencies": {
     "parcel": "^1.12.4"
